@@ -28,10 +28,6 @@ function getBonus(employee) {
 /*The function checks the employee's rating,
 and assigns them a bonus percent based on that rating.*/
     switch (employee.ranking) {
-        case 0:
-        case 1:
-        case 2:
-            break;
         case 3:
             bonusPercent = 4;
             break;
